@@ -10,11 +10,11 @@ Installation
 
 Builds of the image are available on [Docker Hub](https://hub.docker.com/r/antoineraulin/dnsomatic-rpi/) where you can download from the latest stable image.
 
-    docker pull antoineraulin/dnsomatic-rpi
+    docker pull araulin/dnsomatic-rpi
 
 Alternatively you can build the image yourself.
 
-    docker build --tag antoineraulin/dnsomatic-rpi \
+    docker build --tag araulin/dnsomatic-rpi \
         github.com/antoineraulin/docker-dnsomatic-rpi
 
 Quickstart
@@ -27,7 +27,7 @@ Start container using:
         --hostname dnsomatic \
         --env "DNSOMATIC_USERNAME=username" \
         --env "DNSOMATIC_PASSWORD=password" \
-        antoineraulin/dnsomatic-rpi
+        araulin/dnsomatic-rpi
 
 See
 ---
