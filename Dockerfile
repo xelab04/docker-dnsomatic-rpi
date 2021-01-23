@@ -1,4 +1,4 @@
-FROM codeworksio/python:3.6-20180212
+FROM balenalib/raspberry-pi-python:3.6
 
 ENV DNSOMATIC_USERNAME="username" \
     DNSOMATIC_PASSWORD="password" \

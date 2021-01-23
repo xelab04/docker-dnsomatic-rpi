@@ -26,7 +26,7 @@ tried = 0
 while True:
     try:
         # get your IP address
-        req = requests.get('http://myip.dnsomatic.com/')
+        req = requests.get('https://api.my-ip.io/ip')
         if req.status_code == 200:
             newIp = req.text
             if newIp != currentIp:
