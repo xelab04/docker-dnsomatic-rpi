@@ -27,9 +27,11 @@ Start container using:
         --hostname dnsomatic \
         --env "DNSOMATIC_USERNAME=username" \
         --env "DNSOMATIC_PASSWORD=password" \
+        --env "TZ=timezone" \
         araulin/dnsomatic-rpi
 
 See
 ---
 
 * [DNS-O-Matic API](https://www.dnsomatic.com/wiki/api)
+* [List of valid timezones](https://gist.github.com/heyalexej/8bf688fd67d7199be4a1682b3eec7568)
